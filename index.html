@@ -1,125 +1,200 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="gu">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Match the Dot: Connect & Color</title>
-
-  <!-- SEO -->
-  <meta name="description" content="Match the Dot: Connect & Color is a unique logic puzzle game where you spread colors, solve grids and challenge your brain.">
-  <meta name="keywords" content="puzzle game, logic game, match the dot, color puzzle, brain game, indie game">
-  <meta name="author" content="Vik">
-
-  <!-- Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-
-  <!-- Tailwind CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
-
-  <style>
-    body {
-      font-family: 'Inter', sans-serif;
-      background: radial-gradient(circle at top, #131313, #000);
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GujMath: Maths & Reasoning - Gujarat Govt Exam Prep App</title>
+    <meta name="description" content="ગણિત અને રીઝનિંગ પ્રેક્ટિસ એપ, 2000+ MCQ, સમજણ અને ઝડપી ટ્રિક્સ સાથે ગુજરાતી માં. ગુજરાત સરકારની સ્પર્ધાત્મક પરીક્ષાઓની તૈયારી માટે શ્રેષ્ઠ એપ.">
+    <meta name="keywords" content="GujMath, Maths in Gujarati, Reasoning in Gujarati, GPSC Maths, Gujarat Govt Exams, Gujarati MCQ, Math Tricks Gujarati">
+    <meta name="author" content="Colorless Rainbow">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="GujMath: Maths & Reasoning">
+    <meta property="og:description" content="ગણિત અને રીઝનિંગ પ્રેક્ટિસ એપ, 2000+ MCQ, સમજણ અને ઝડપી ટ્રિક્સ સાથે ગુજરાતી માં.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://play.google.com/store/apps/details?id=com.vikj.gujmath">
+    
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="GujMath: Maths & Reasoning">
+    <meta name="twitter:description" content="ગણિત અને રીઝનિંગ પ્રેક્ટિસ એપ, 2000+ MCQ, સમજણ અને ઝડપી ટ્રિક્સ સાથે ગુજરાતી માં.">
+    
+    <link rel="canonical" href="https://play.google.com/store/apps/details?id=com.vikj.gujmath">
+    
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "GujMath: Maths & Reasoning",
+      "operatingSystem": "ANDROID",
+      "applicationCategory": "EducationalApplication",
+      "description": "ગણિત અને રીઝનિંગ પ્રેક્ટિસ એપ, 2000+ MCQ, સમજણ અને ઝડપી ટ્રિક્સ સાથે ગુજરાતી માં. ગુજરાત સરકારની સ્પર્ધાત્મક પરીક્ષાઓની તૈયારી માટે શ્રેષ્ઠ એપ.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "Colorless Rainbow"
+      }
     }
-
-    .glass {
-      backdrop-filter: blur(10px);
-      background: rgba(255,255,255,0.05);
-      border: 1px solid rgba(255,255,255,0.1);
-    }
-
-    .logo-dot {
-      width: 14px;
-      height: 14px;
-      border-radius: 50%;
-      background: radial-gradient(circle, #ffd400, #ffa200);
-      box-shadow: 0 0 10px rgba(255,200,0,0.8);
-    }
-
-    .gradient-text {
-      background: linear-gradient(to right, #ffcc00, #ff7a00, #00d4ff);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-  </style>
+    </script>
+    <style>
+        .play-store-btn {
+            display: inline-block;
+            background-color: #01875f;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            margin-top: 1rem;
+            text-decoration: none;
+            transition: background-color 0.2s;
+        }
+        .play-store-btn:hover {
+            background-color: #016c4c;
+            color: white;
+            text-decoration: none;
+        }
+        :root {
+            --primary-color: #2563eb;
+            --text-color: #1f2937;
+            --bg-color: #f3f4f6;
+            --card-bg: #ffffff;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+            background-color: var(--card-bg);
+            min-height: 100vh;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        h1 {
+            color: var(--primary-color);
+            margin: 0 0 0.5rem 0;
+            font-size: 2rem;
+        }
+        h2 {
+            font-size: 1.25rem;
+            color: #111827;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .subtitle {
+            font-size: 1.1rem;
+            color: #4b5563;
+            margin: 0;
+        }
+        .description {
+            font-size: 1.05rem;
+            text-align: center;
+            margin-bottom: 2rem;
+            color: #374151;
+        }
+        .section-box {
+            background-color: var(--bg-color);
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .features {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .features li {
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: flex-start;
+        }
+        .features li::before {
+            content: "✅";
+            margin-right: 0.5rem;
+        }
+        .features li:last-child {
+            margin-bottom: 0;
+        }
+        .contact-info, .privacy-info {
+            text-align: center;
+        }
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            margin-top: 2rem;
+            text-align: center;
+            font-size: 0.875rem;
+            color: #6b7280;
+            padding-top: 1.5rem;
+            border-top: 1px solid #e5e7eb;
+        }
+    </style>
 </head>
+<body>
+    <div class="container">
+        <header>
+            <h1>GujMath: Maths & Reasoning</h1>
+            <p class="subtitle">ગણિત અને રીઝનિંગ પ્રેક્ટિસ એપ, 2000+ MCQ, સમજણ અને ઝડપી ટ્રિક્સ સાથે ગુજરાતી માં</p>
+        </header>
 
-<body class="text-white">
+        <main>
+            <section class="description">
+                <p>ગુજરાત સરકારની સ્પર્ધાત્મક પરીક્ષાઓની તૈયારી માટે ગણિત અને રિઝનિંગની પ્રેક્ટિસ માટેની શ્રેષ્ઠ એપ.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.vikj.gujmath" class="play-store-btn" target="_blank">⬇️ Download on Google Play</a>
+            </section>
 
-  <!-- HERO -->
-  <section class="min-h-screen flex items-center justify-center px-6">
-    <div class="glass rounded-3xl max-w-5xl w-full p-10 grid md:grid-cols-2 gap-10">
+            <section class="section-box">
+            <h2>✨ વિશેષતાઓ (Features)</h2>
+            <ul class="features">
+                <li>વિષય મુજબ પ્રેક્ટિસ (Topic-wise practice)</li>
+                <li>સ્ટેપ-બાય-સ્ટેપ સમજૂતી (Step-by-step explanations)</li>
+                <li>શોર્ટકટ ટ્રીક્સ (Shortcut tricks)</li>
+                <li>અગાઉની પરીક્ષાઓના પ્રશ્નો (Previous year questions)</li>
+            </ul>
+            </section>
 
-      <!-- LEFT -->
-      <div class="flex flex-col justify-center">
-        <div class="flex items-center gap-2 mb-4">
-          <div class="logo-dot"></div>
-          <span class="text-sm opacity-70">Puzzle Game</span>
+            <section class="section-box contact-info">
+            <h2>📞 સંપર્ક (Contact Us)</h2>
+            <p>કોઈપણ પ્રશ્ન કે સૂચન માટે અમને ઇમેઇલ કરો:</p>
+            <p><a href="mailto:colorlessrainbowwww@gmail.com">colorlessrainbowwww@gmail.com</a></p>
+            </section>
+
+            <section class="section-box privacy-info">
+            <h2>🔒 પ્રાઇવસી પોલિસી (Privacy Policy)</h2>
+            <p>અમારી એપની પ્રાઇવસી પોલિસી વાંચવા માટે નીચેની લિંક પર ક્લિક કરો:</p>
+            <p><a href="https://rainbowno.github.io/mtd-privacy-policy/" target="_blank">Privacy Policy</a></p>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2026 GujMath. All rights reserved.</p>
         </div>
-
-        <h1 class="text-4xl md:text-5xl font-bold leading-tight">
-          Match the Dot  
-          <span class="gradient-text block">Connect & Color</span>
-        </h1>
-
-        <p class="mt-5 text-gray-300 leading-relaxed">
-          A minimal logic puzzle where you spread colors across the grid.
-          One wrong move can affect the entire board. Think ahead and solve smart.
-        </p>
-
-        <!-- TAGLINE -->
-        <p class="mt-4 text-sm tracking-widest text-gray-400 uppercase">
-          Slide • Spread • Solve
-        </p>
-
-        <!-- BUTTON -->
-        <a target="_blank"
-           href="https://play.google.com/store/apps/details?id=com.vikj.matchthedot"
-           class="inline-block mt-8 px-8 py-4 rounded-xl text-black bg-yellow-400 hover:bg-yellow-300 transition font-semibold shadow-lg">
-           Get it on Play Store
-        </a>
-
-      </div>
-
-      <!-- RIGHT -->
-      <div class="flex flex-col items-center justify-center space-y-6">
-        <img
-          class="rounded-2xl shadow-xl w-[260px]"
-          src="https://play-lh.googleusercontent.com/zTd3eTB_4LqaobG9ijV1oRNg5oHVXhkjeXR7N5n25jq5F9juVzBAS5FLLsiopSi1YgT6gyaHunm73H4QMtMKrQ=w526-h296-rw"
-          alt="Match the Dot screenshot 2"
-        />
-
-      </div>
-
     </div>
-  </section>
-
-  <!-- FEATURES -->
-  <section class="max-w-4xl mx-auto px-6 -mt-20 pb-20">
-    <div class="grid md:grid-cols-3 gap-6 text-center">
-
-      <div class="glass p-6 rounded-xl">
-        <h3 class="font-semibold">Unique Logic</h3>
-        <p class="text-sm mt-2 text-gray-400">No guessing. Every move impacts the grid.</p>
-      </div>
-
-      <div class="glass p-6 rounded-xl">
-        <h3 class="font-semibold">Minimal Design</h3>
-        <p class="text-sm mt-2 text-gray-400">Clean UI with distraction-free gameplay.</p>
-      </div>
-
-      <div class="glass p-6 rounded-xl">
-        <h3 class="font-semibold">Real Challenge</h3>
-        <p class="text-sm mt-2 text-gray-400">Expert levels require deep thinking.</p>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer class="text-center opacity-40 pb-10 text-sm">
-    © 2025 Match the Dot • Crafted by Colorless Rainbow
-  </footer>
-
 </body>
 </html>
