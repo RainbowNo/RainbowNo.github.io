@@ -1,5 +1,15 @@
 {
-  "LEADERBOARD_PUSH_INTERVAL_MS": 20 * 60 * 1000,
-  "LEADERBOARD_CACHE_TTL_MS": 20 * 60 * 1000,
-  "LEADERBOARD_LIMIT": 50 
+  "LEADERBOARD_PUSH_INTERVAL_MS": "20 * 60 * 1000",
+  "LEADERBOARD_CACHE_TTL_MS": "20 * 60 * 1000",
+  "LEADERBOARD_LIMIT": 50,
+  "pyq": [
+    {
+        "id": 101,
+        "version": 1
+    },
+    {
+        "id": 102,
+        "version": 2
+    }
+  ]
 }
