@@ -1,51 +1,183 @@
 {
-  "LEADERBOARD_PUSH_INTERVAL_MS": "20 * 60 * 1000",
-  "LEADERBOARD_CACHE_TTL_MS": "20 * 60 * 1000",
-  "LEADERBOARD_LIMIT": 50,
-  "pyq": [
-    {
-        "id": 101,
-        "version": 2
-    },
-    {
-        "id": 102,
-        "version": 3
-    },
-    {
-        "id": 103,
-        "version": 2
-    },
-    {
-        "id": 104,
-        "version": 1
-    },
-    {
-        "id": 105,
-        "version": 1
-    },
-    {
-        "id": 106,
-        "version": 1
-    },
-    {
-        "id": 107,
-        "version": 1
-    },
-    {
-        "id": 108,
-        "version": 1
-    },
-    {
-        "id": 109,
-        "version": 1
-    },
-    {
-        "id": 110,
-        "version": 1
-    },
-    {
-        "id": 111,
-        "version": 1
-    }
-  ]
+    "LEADERBOARD_PUSH_INTERVAL_MS": "20 * 60 * 1000",
+    "LEADERBOARD_CACHE_TTL_MS": "20 * 60 * 1000",
+    "LEADERBOARD_LIMIT": 50,
+    "pyq": [
+        {
+            "id": 101,
+            "version": 2
+        },
+        {
+            "id": 102,
+            "version": 3
+        },
+        {
+            "id": 103,
+            "version": 2
+        },
+        {
+            "id": 104,
+            "version": 1
+        },
+        {
+            "id": 105,
+            "version": 1
+        },
+        {
+            "id": 106,
+            "version": 2
+        },
+        {
+            "id": 107,
+            "version": 1
+        },
+        {
+            "id": 108,
+            "version": 1
+        },
+        {
+            "id": 109,
+            "version": 1
+        },
+        {
+            "id": 110,
+            "version": 1
+        },
+        {
+            "id": 111,
+            "version": 1
+        },
+        {
+            "id": 112,
+            "version": 1
+        },
+        {
+            "id": 113,
+            "version": 1
+        },
+        {
+            "id": 114,
+            "version": 1
+        },
+        {
+            "id": 115,
+            "version": 1
+        },
+        {
+            "id": 116,
+            "version": 1
+        },
+        {
+            "id": 117,
+            "version": 1
+        },
+        {
+            "id": 118,
+            "version": 1
+        },
+        {
+            "id": 119,
+            "version": 1
+        },
+        {
+            "id": 120,
+            "version": 1
+        },
+        {
+            "id": 121,
+            "version": 1
+        },
+        {
+            "id": 122,
+            "version": 1
+        },
+        {
+            "id": 123,
+            "version": 1
+        },
+        {
+            "id": 124,
+            "version": 1
+        },
+        {
+            "id": 125,
+            "version": 1
+        },
+        {
+            "id": 126,
+            "version": 1
+        },
+        {
+            "id": 127,
+            "version": 1
+        },
+        {
+            "id": 128,
+            "version": 1
+        },
+        {
+            "id": 129,
+            "version": 1
+        },
+        {
+            "id": 130,
+            "version": 1
+        },
+        {
+            "id": 131,
+            "version": 1
+        },
+        {
+            "id": 132,
+            "version": 1
+        },
+        {
+            "id": 133,
+            "version": 1
+        },
+        {
+            "id": 134,
+            "version": 1
+        },
+        {
+            "id": 135,
+            "version": 1
+        },
+        {
+            "id": 136,
+            "version": 1
+        },
+        {
+            "id": 137,
+            "version": 1
+        },
+        {
+            "id": 138,
+            "version": 1
+        },
+        {
+            "id": 139,
+            "version": 1
+        },
+        {
+            "id": 140,
+            "version": 1
+        },
+        {
+            "id": 141,
+            "version": 1
+        },
+        {
+            "id": 142,
+            "version": 1
+        },
+        {
+            "id": 143,
+            "version": 1
+        },
+        {
+            "id": 144,
+            "version": 1
+        }
+    ]
 }
